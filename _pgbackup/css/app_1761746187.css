@@ -7534,8 +7534,6 @@ button.bg-dark:focus {
 
 .justify-content-center {
     justify-content: center !important;
-    margin-top: 0px;
-    padding-top: 32px;
 }
 
 .justify-content-between {
