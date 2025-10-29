@@ -1,0 +1,15 @@
+{
+  "name": "odoo-landing",
+  "private": true,
+  "scripts": {
+    "build:css": "npx sass --load-path=node_modules scss/app.scss css/app.css --style=compressed --no-source-map",
+    "dev:css": "npx sass --load-path=node_modules scss/app.scss css/app.css --style=expanded --source-map",
+    "watch:css": "npx sass --load-path=node_modules --watch scss/app.scss css/app.css --style=expanded --source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2"
+  }
+}

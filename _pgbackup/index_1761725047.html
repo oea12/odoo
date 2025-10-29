@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>Odoo Design</title>
+        <!-- Nunito -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap" rel="stylesheet"/>
+        <!-- Tu build (incluye Bootstrap 4.6 + overrides) -->
+        <link rel="stylesheet" href="css/app.css?v=1"/>
+    </head>
+    <body>
+        <!-- ===== NAVBAR ===== -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container"><a class="navbar-brand" href="#"> <img src="img/odoo-white.svg" alt="odoo" height="28"/> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navMain">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tools">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tech">App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#helpful">Docs</a>
+                        </li>
+                    </ul><a class="btn btn-link mr-2" href="#">Sign in</a><a class="btn btn-primary" href="#">Buy now</a>
+                </div>
+            </div>
+        </nav>
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Texto -->
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h1 class="display-4 text-white">Development done right</h1>
+                        <p class="lead text-white-50">
+            Build a beautiful, modern website with flexible components built from scratch. </p><a href="#" class="btn btn-light btn-lg">Get started</a>
+                        <div class="small text-white-50 mt-4 mb-2">Trusted by</div>
+                        <ul class="list-inline mb-0 align-middle">
+                            <li class="list-inline-item mr-3">
+                                <img src="img/google-white.svg" alt="Google" height="22"/>
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <img src="img/spotify-white.svg" alt="Spotify" height="22"/>
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <img src="img/airbnb-white.svg" alt="Airbnb" height="22"/>
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="img/paypal-white.svg" alt="PayPal" height="22"/>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Tarjeta -->
+                    <div class="col-lg-6">
+                        <div class="card shadow-lg border-0 rounded-lg ml-lg-auto" style="max-width:420px">
+                            <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center"><span>Manage cards</span>
+                                <button class="btn btn-sm btn-outline-light">Add new</button>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge badge-success">Active</span>
+                                </div>
+                                <div class="row text-uppercase small text-muted">
+                                    <div class="col-6">Card number</div>
+                                    <div class="col-6 text-right">Name</div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col-6 h5 mb-0">4358 • 7421 • 9256 • 6682</div>
+                                    <div class="col-6 text-right h5 mb-0">John Snow</div>
+                                </div>
+                                <div class="row small text-muted mb-3">
+                                    <div class="col-6">Expiry date</div>
+                                    <div class="col-6 text-right">11/23</div>
+                                </div>
+                                <hr/>
+                                <div class="d-flex justify-content-between">
+                                    <div><strong>Starbucks</strong>
+                                        <div class="small text-muted">Pending — San Francisco, United States</div>
+                                    </div><strong>$5.50 USD</strong>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <div><strong>Nike Sports</strong>
+                                        <div class="small text-muted">Pending — Lisbon, Portugal</div>
+                                    </div><strong>$129.00 USD</strong>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-white text-right"><a href="#" class="small">View all</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== TOOLS ===== -->
+        <section class="tools" id="tools">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Card izquierda -->
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="card shadow border-0">
+                            <div class="card-body">
+                                <h6 class="text-muted mb-3">Awesome projects</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Create the new logo <span class="badge badge-light">3:50</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Set up the color palette <span class="badge badge-light">4:00</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Wireframe and prototype <span class="badge badge-light">6:50</span>
+                                    </li>
+                                </ul><a href="#" class="btn btn-outline-primary mt-3">Play video</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Texto derecha -->
+                    <div class="col-lg-6"><span class="badge badge-pill badge-primary">Tools</span>
+                        <h2 class="mt-3">We build for designers and developers</h2>
+                        <p class="lead text-muted">
+            Get components and examples, including tons of variables that will help you grow your business. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== FEATURES ===== -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                        <img src="img/img_01.jpg" class="img-fluid rounded shadow" alt=""/>
+                    </div>
+                    <div class="col-lg-6 order-lg-1"><span class="badge badge-pill badge-success">Features</span>
+                        <h3 class="mt-3">Get components and examples, including tons of variables that will help you grow your business.</h3>
+                        <ul class="list-unstyled mt-3">
+                            <li class="media mb-2">
+                                <div class="media-body">
+                                    <strong>Perfect for modern startups</strong>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-body">
+                                    <strong>Fully customizable and scalable</strong>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== TECH ===== -->
+        <section class="tech" id="tech">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Tarjetas -->
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="card shadow border-0 mb-3">
+                            <div class="card-body d-flex align-items-center">
+                                <img src="img/person_01.jpg" class="rounded-circle mr-3" width="48" height="48" alt="Jimmy"/>
+                                <div>
+                                    <div class="font-weight-bold">Jimmy Hendrix</div>
+                                    <div class="small text-muted">300+ components<br/>Built to be customized.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card shadow border-0">
+                            <div class="card-body">
+                                <div class="small text-muted">4.95 out of 5 stars from 23 reviews</div>
+                                <div class="h5 mb-0">Website UI Kit</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Texto -->
+                    <div class="col-lg-8"><span class="badge badge-pill badge-info">Technology</span>
+                        <h2 class="mt-3">We use the latest technologies on the market</h2>
+                        <p class="lead text-muted">
+            Get components and examples, including tons of variables that will help you grow your business. </p><a href="#" class="btn btn-outline-primary">See case studies</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== EASY INSTALL ===== -->
+        <section class="easy-install">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h3>Easy to install</h3>
+                        <h5 class="text-muted">Download, install and run.</h5>
+                        <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+                        <div class="mt-3"><a href="#" class="btn btn-dark mr-2">Download on the App Store</a><a href="#" class="btn btn-outline-dark">Download on the Play Store</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/img_02.jpg" class="img-fluid rounded shadow" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== CTA DARK ===== -->
+        <section class="cta-dark">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <h3 class="text-white mb-2">Infinite solutions</h3>
+                        <p class="text-white-50 mb-0">
+            Intuitive markup, powerful and lightning-fast build tools, everything you need to turn your ideas into incredible products. </p>
+                    </div>
+                    <div class="col-lg-4 text-lg-right mt-3 mt-lg-0"><a href="#" class="btn btn-light btn-lg">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== AWARDS ===== -->
+        <section class="awards" id="awards">
+            <div class="container">
+                <div class="text-center mb-4"><span class="badge badge-pill badge-primary">Awards</span>
+                    <h2 class="mt-3">Awards for design, creativity, and innovation on the Internet</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3"><a href="#" class="card award-card shadow-sm h-100 text-reset text-decoration-none"> <div class="card-body d-flex align-items-center">
+                                <img src="img/airbnb.svg" alt="Airbnb" height="28" class="mr-3"/>
+                                <div class="small">
+                                    <div>4.95 out of 5 stars</div>
+                                    <div class="text-muted">from 23 reviews</div>
+                                </div>
+                            </div> <div class="card-footer bg-white text-primary small">Learn more</div> </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3"><a href="#" class="card award-card shadow-sm h-100 text-reset text-decoration-none"> <div class="card-body d-flex align-items-center">
+                                <img src="img/amazon.svg" alt="Amazon" height="28" class="mr-3"/>
+                                <div class="small">
+                                    <div>They sold modern looking websites easily</div>
+                                    <div class="text-muted">using Tabs</div>
+                                </div>
+                            </div> <div class="card-footer bg-white text-primary small">Learn more</div> </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3"><a href="#" class="card award-card shadow-sm h-100 text-reset text-decoration-none"> <div class="card-body d-flex align-items-center">
+                                <img src="img/slack.svg" alt="Slack" height="28" class="mr-3"/>
+                                <div class="small">
+                                    <div>They build modern looking websites easily</div>
+                                    <div class="text-muted">using Tabs</div>
+                                </div>
+                            </div> <div class="card-footer bg-white text-primary small">Learn more</div> </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3"><a href="#" class="card award-card shadow-sm h-100 text-reset text-decoration-none"> <div class="card-body d-flex align-items-center">
+                                <img src="img/spotify.svg" alt="Spotify" height="28" class="mr-3"/>
+                                <div class="small">
+                                    <div>4.95 out of 5 stars</div>
+                                    <div class="text-muted">from 23 reviews</div>
+                                </div>
+                            </div> <div class="card-footer bg-white text-primary small">Learn more</div> </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3"><a href="#" class="card award-card shadow-sm h-100 text-reset text-decoration-none"> <div class="card-body d-flex align-items-center">
+                                <img src="img/paypal.svg" alt="PayPal" height="28" class="mr-3"/>
+                                <div class="small">
+                                    <div>4.95 out of 5 stars</div>
+                                    <div class="text-muted">from 23 reviews</div>
+                                </div>
+                            </div> <div class="card-footer bg-white text-primary small">Learn more</div> </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== HELPFUL / FAQ ===== -->
+        <section class="helpful" id="helpful">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2>Helpful answers</h2>
+                    <p class="text-muted mb-0">Start building fast, beautiful, and modern-looking websites in no time.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mb-3">
+                        <div id="faqLeft" class="accordion">
+                            <!-- Q1 -->
+                            <div class="card">
+                                <div class="card-header" id="q1">
+                                    <h5 class="mb-0"> <button class="btn btn-link" data-toggle="collapse" data-target="#a1" aria-expanded="true" aria-controls="a1">
+                                            Which license do I need?
+</button> </h5>
+                                </div>
+                                <div id="a1" class="collapse show" data-parent="#faqLeft" aria-labelledby="q1">
+                                    <div class="card-body">Answer content here.</div>
+                                </div>
+                            </div>
+                            <!-- Q2 -->
+                            <div class="card">
+                                <div class="card-header" id="q2">
+                                    <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#a2" aria-expanded="false" aria-controls="a2">
+                                            How do I get access to my database?
+</button> </h5>
+                                </div>
+                                <div id="a2" class="collapse" data-parent="#faqLeft" aria-labelledby="q2">
+                                    <div class="card-body">Answer content here.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div id="faqRight" class="accordion">
+                            <!-- Q3 -->
+                            <div class="card">
+                                <div class="card-header" id="q3">
+                                    <h5 class="mb-0"> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#a3" aria-expanded="false" aria-controls="a3">
+                                            How do I see previous orders?
+</button> </h5>
+                                </div>
+                                <div id="a3" class="collapse" data-parent="#faqRight" aria-labelledby="q3">
+                                    <div class="card-body">Answer content here.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CTA inferior -->
+                <div class="text-center mt-3">
+                    <p class="mb-2">I want to start a new project.</p><a href="#" class="btn btn-primary mr-2">Buy now</a><a href="#" class="btn btn-outline-primary">Learn more</a>
+                </div>
+            </div>
+        </section>
+        <!-- ===== FOOTER ===== -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row mb-4 align-items-center">
+                    <div class="col-lg-8">
+                        <h4 class="text-white mb-2">Brilliant solutions for your ideas</h4>
+                        <p class="text-white-50 mb-3">Modern-looking websites.</p><a class="btn btn-outline-light mr-2" href="#">Documentation</a><a class="btn btn-light" href="#">Purchase now</a>
+                    </div>
+                    <div class="col-lg-4 text-lg-right mt-3 mt-lg-0">
+                        <img src="img/odoo-white.svg" alt="odoo" height="28"/>
+                    </div>
+                </div>
+                <hr class="border-secondary"/>
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <h6 class="text-white">Account</h6>
+                        <ul class="list-unstyled text-white-50">
+                            <li>
+                                <a href="#" class="text-white-50">Profile</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Settings</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Billing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Notifications</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h6 class="text-white">About</h6>
+                        <ul class="list-unstyled text-white-50">
+                            <li>
+                                <a href="#" class="text-white-50">Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Careers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h6 class="text-white">Company</h6>
+                        <ul class="list-unstyled text-white-50">
+                            <li>
+                                <a href="#" class="text-white-50">Community</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Help center</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h6 class="text-white">&nbsp;</h6>
+                        <ul class="list-unstyled text-white-50">
+                            <li>
+                                <a href="#" class="text-white-50">Terms</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white-50">Cookies</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="border-secondary"/>
+                <div class="d-flex justify-content-between small text-white-50"><span>© Odoo. All rights reserved</span>
+                </div>
+            </div>
+        </footer>
+        <!-- ===== JS ===== -->
+        <script src="js/plugins/jquery-3.3.1.min.js"></script>
+        <!-- Bootstrap 4.6 bundle (incluye Popper). Si lo tienes local, reemplázalo por tu archivo 4.6 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    </body>
+</html>
