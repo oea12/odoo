@@ -629,7 +629,6 @@ pre code {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    justify-content: center;
 }
 
 .no-gutters {
@@ -7535,9 +7534,8 @@ button.bg-dark:focus {
 
 .justify-content-center {
     justify-content: center !important;
-    margin-top: 80px;
-    padding-top: 45px;
-    top:  !important;
+    margin-top: 0px;
+    padding-top: 32px;
 }
 
 .justify-content-between {
@@ -10617,8 +10615,8 @@ button.bg-dark:focus {
 
 .text-center {
     text-align: center !important;
-    height: 185px;
-    padding: 17px 17px 20px;
+    height: 93px;
+    padding: 17px;
     margin: 21px;
 }
 
@@ -11563,18 +11561,7 @@ h3 {
     }
 
     .okok {
-        height: 399px !important;
+        height: 283px;
         display: inline-flex;
-    }
-
-    .tools2 {
-        left: 37px !important;
-        top: -92px !important;
-    }
-
-    .l {
-        width: 100% !important;
-        left: -57px;
-        top: 52px;
     }
 }
